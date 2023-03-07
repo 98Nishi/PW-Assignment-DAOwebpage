@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif,cursive;
+  }
+  nav {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 32px 105px;
+    height: 94px;
+    background-color: #000;
+  }
+ 
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left:45px;
+    margin-right:45px;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+
+.logo {
+    margin-left: 0%;
+    object-fit: cover;
+
+}
+nav ul {
+    display: flex;
+    align-items:center;
+}
+.list {
+    font-family: "Poppins",sans-serif,cursive;
+    display: flex;
+    align-items:center;
+    font-style: normal;
+    list-style: none;
+    font-size: 15px;
+    gap:62px;
+    font-weight: 650;
+    line-height:22px;
+    width: 50%;
+    color:#ffffff;
+   
+   
+}
+.first-button {
+    display: flex;
+    padding: 8px 30px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height:25px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 98px;
+    position:absolute;
+    top:18px;
+    right:18px;
+
+}
+.main {
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    width: 100%;
+    text-align: center;
+}
+.main-heading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 135px;
+    
+}
+.main-description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+   
+}
+.Second-button {
+    background: #ba0cc5;
+    border-radius: 12px;
+    font-family: "Poppins",sans-serif,cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+}
